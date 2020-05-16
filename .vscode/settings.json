@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "/home/willf/Documents/Ebuilder Ultra/.venv/bin/python3.8",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
+}
