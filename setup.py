@@ -1,7 +1,11 @@
-import pathlib, os
+import pathlib
 from setuptools import setup
 
-README = open("/home/runner/work/Ebuilder-Ultra/Ebuilder-Ultra/README.md").read()
+# The directory containing this file
+HERE = pathlib.Path(__file__).parent
+
+# The text of the README file
+README = (HERE / "README.md").read_text()
 
 # This call to setup() does all the work
 setup(
