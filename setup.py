@@ -1,8 +1,7 @@
 import pathlib, os
 from setuptools import setup
 
-print(os.getcwd(), os.listdir())
-README = ("/home/runner/README.md").read_text()
+README = ("/home/runner/work/Ebuilder-Ultra/Ebuilder-Ultra/README.md").read_text()
 
 # This call to setup() does all the work
 setup(
