@@ -1,4 +1,4 @@
-from src.main import *
+from ultra.main import *
 import pytest
 
 @pytest.fixture

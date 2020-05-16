@@ -1,4 +1,4 @@
-from src.main import ultra, request
+from ultra import ultra, request
 
 app = ultra()
 @app.route("/")
