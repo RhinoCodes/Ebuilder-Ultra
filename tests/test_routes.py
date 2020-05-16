@@ -1,9 +1,9 @@
-from ultra.main import *
+from ultra import *
 import pytest
 
 @pytest.fixture
 def api():
-    return ultra()
+    return Ultra()
 
 @pytest.fixture
 def client(api):
