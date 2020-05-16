@@ -1,6 +1,7 @@
-import pathlib
+import pathlib, os
 from setuptools import setup
 
+print(os.getcwd(), os.listdir())
 README = ("/home/runner/README.md").read_text()
 
 # This call to setup() does all the work
