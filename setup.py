@@ -24,5 +24,5 @@ setup(
     ],
     packages=["ultra"],
     include_package_data=True,
-    install_requires=["webob", "requests", "requests-wsgi-adapter"],
+    install_requires=["webob", "requests-wsgi-adapter"],
 )
